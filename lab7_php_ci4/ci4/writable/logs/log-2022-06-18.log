@@ -1,0 +1,38 @@
+CRITICAL - 2022-06-18 08:42:13 --> Undefined variable: row
+#0 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\app\Views\artikel\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel/detail', Array, true)
+#4 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\app\Controllers\artikel.php(25): view('artikel/detail', Array)
+#5 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->view('artikel-kedua')
+#6 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#7 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-18 08:46:56 --> Undefined variable: row
+#0 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\app\Views\artikel\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel/detail', Array, true)
+#4 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\app\Controllers\artikel.php(25): view('artikel/detail', Array)
+#5 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->view('artikel-kedua')
+#6 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#7 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-18 08:57:13 --> Invalid file: template/admin_header.php
+#0 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/admin_...')
+#1 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\View\View.php(424): CodeIgniter\View\View->render('template/admin_...', NULL, true)
+#2 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\app\Views\artikel\admin_index.php(1): CodeIgniter\View\View->include('template/admin_...')
+#3 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel/admin_i...', Array, true)
+#6 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\app\Controllers\artikel.php(32): view('artikel/admin_i...', Array)
+#7 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#8 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#9 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Lab11Web\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
